@@ -1,7 +1,7 @@
-import { H1, PillTabsProps, Small, Table, TableFigure, TableItem, Text, Panel, Tabs } from '@bigcommerce/big-design';
-import React, { useEffect, useState, useContext } from 'react';
+import { H1, Panel, PillTabsProps, Small, Table, TableFigure, TableItem, Tabs, Text } from '@bigcommerce/big-design';
+import React, { useContext, useEffect, useState } from 'react';
 
-import { Code, CodePreview, ActiveTabContext } from '../../components';
+import { ActiveTabContext, Code, CodePreview } from '../../components';
 import {
   TableColumnsPropTable,
   TablePropTable,
